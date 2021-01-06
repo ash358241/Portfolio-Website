@@ -1,0 +1,180 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+header {
+  float: right;
+  margin-right: 5%;
+  padding-right: 2%;
+  margin-top: 2%;
+}
+
+header a {
+  padding: 7.5px 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  color: dimgray;
+}
+
+.half-part {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.half-part img {
+  width: 100%;
+}
+
+.highlight {
+  color: salmon;
+}
+
+.top-banner {
+  padding-top: 100px;
+}
+
+section {
+  height: 500px;
+}
+
+.link-btn {
+  /* background: salmon; */
+  color: white;
+  font-weight: 700;
+  padding: 20px 40px;
+  background-image: linear-gradient(lightsalmon, tomato);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.about {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.latest {
+  background-color: #f2f2f2;
+}
+.headline {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  /* grid-row-gap: 6rem; */
+  padding-bottom: 150px;
+}
+
+.card {
+  border: none;
+  padding: 1rem 2rem;
+  position: relative;
+  /* padding-top: 6rem; */
+  text-align: left;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 45px grey;
+  transition: 0.5s all ease;
+}
+
+.card:hover {
+  box-shadow: 20px 20px 50px grey;
+}
+
+.container2 {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.work {
+  margin-top: 100px;
+  background-image: url(./shapes/Group_33094_1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 330px;
+}
+
+.work .hard {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.work .hard h2 {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+.work .hard a {
+  height: 20px;
+  color: white;
+  margin-right: 40px;
+  margin-top: 80px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-image: linear-gradient(lightsalmon, tomato);
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.project {
+  height: 330px;
+  background-color: black;
+}
+
+.project .contact {
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+}
+.project .contact hr {
+  width: 60%;
+}
+
+.in-touch {
+  margin-top: 100px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding-top: 100px;
+  height: 300px;
+  text-align: center;
+}
+
+footer .ft-hd {
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+footer hr {
+  width: 60%;
+}
